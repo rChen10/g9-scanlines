@@ -1,0 +1,32 @@
+#PLATE
+push
+move
+250 150 0
+push
+scale
+7 1 7
+#rotate
+y 90
+rotate
+z 30
+sphere
+0 0 0 25
+pop
+push
+move
+20 20 0
+push
+scale
+3 3 3
+rotate
+x 10
+torus
+0 0 0 10 25
+move
+-30 10 0
+rotate
+z 20
+torus
+0 0 0 10 25
+save
+donuts.ppm
